@@ -1,6 +1,6 @@
 {
   "name": "@intellync/file-saver",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "publishConfig": {
     "registry": "https://abg-nv-link.pkgs.visualstudio.com/_packaging/intellync.internal/npm/registry/"
   },
