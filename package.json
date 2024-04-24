@@ -17,6 +17,7 @@
     "build:development": "babel -o dist/FileSaver.js --plugins @babel/plugin-transform-modules-umd src/FileSaver.js",
     "build:production": "babel -o dist/FileSaver.min.js -s --plugins @babel/plugin-transform-modules-umd --presets minify src/FileSaver.js",
     "build": "npm run build:development && npm run build:production",
+    "release": "npx release-it patch --only-version",
     "prepublishOnly": "npm run build"
   },
   "repository": {
